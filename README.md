@@ -2,35 +2,43 @@
 
 ## Dados do Cliente
 
-**Título do Projeto:** `<Título do projeto>`  
-**Cliente:** `<razão social/nome do cliente>`  
-**CNPJ/CPF:** `<CNPJ/CPF do cliente>`  
-**Contato:** `<nome do contato>`  
-**Email do contato:** `<email do contato>`  
+**Título do Projeto:** `Irriga Fácil`  
+**Cliente:** `Lucélia de Souza Medeiros`  
+**CNPJ/CPF:** `055.217.716-46`  
+**Contato:** `Lucélia de Souza Medeiros` 
+**Email do contato:** `-`  
 
 ## Equipe de Desenvolvimento
 
 | Nome Completo  | Curso  | Disciplina  |
 |---------------|--------|------------|
-| `<integrante 1>` | `<nome do curso>` | `<nome da disciplina>` |
-| `<integrante 2>` | `<nome do curso>` | `<nome da disciplina>` |
-| `<integrante 3>` | `<nome do curso>` | `<nome da disciplina>` |
-| `<integrante 4>` | `<nome do curso>` | `<nome da disciplina>` |
-| `<integrante 5>` | `<nome do curso>` | `<nome da disciplina>` |
+| `João Pedro de Oliveira Martins` | `Ciências da Computação` | `Programação de software básico em C` |
+| `Luiz Henrique dos Santos` | `Ciências da Computação` | `Programação de software básico em C` |
+| `Sofia Medeiros Barreto de Lima` | `Ciências da Computação` | `Programação de sofware básico em C` |
+| `Leticia Novaes Antunes` | `Ciências da Computação` | `Programação de sotware básico em C` |
 
-**Professor Orientador:** `<nome completo do professor>`
+
+**Professor Orientador:** `Kesede Rodrigues Junior`
 
 ## 1. Introdução
 
-> **Dica:** A introdução deve apresentar o problema identificado pelo cliente e como o sistema irá resolvê-lo, incluindo as tecnologias utilizadas e o impacto esperado.
+**O cliente tem um problema em realizar e manter uma regularidade na irrigação da suas plantas. Identificando esse problema, uma das formas para solucionar esse problema é na criação de sistema Iot que irá realizar a irrgação regular, também irá manter sempre a umidade e temperatura do solo da plantação controlada. Esse projeto irá utilizar um arduino, sensores de temperatura e umidade para realizarem o controle da plantação. Visamos facilitar a vida da nossa cliente e manter a sua plantação sempre cuidada.**
 
 ## 2. Objetivo
 
-> **Dica:** Descreva qual problema do cliente será resolvido pelo sistema.
+**Criar uma rotina para regar as plantas e um controle de temperatura e umidadde do solo.**
 
 ## 3. Escopo
 
-> **Dica:** Liste os principais requisitos que serão implementados, bem como os limites da implementação. Inclua também o que *não* será implementado.
+<ol>
+  <li>Dispositivo IOT</li>
+    <ul>
+        <li>Módulo de controle de temperatura do solo</li>
+      <li>Módulo de controle de rotina</li>
+      <li>Módulo de controle de umidade do solo</li>
+      <li>Módulo de controle de vazão da água</li>
+    </ul>
+</ol>
 
 ## 4. Backlogs do Produto
 
@@ -48,7 +56,11 @@
 
 ### Tecnologias utilizadas
 
-> **Dica:** Liste as linguagens, frameworks, bibliotecas e APIs utilizadas, com uma breve descrição de cada uma.
+
+<ul>
+  <li>Linguagem principal do dispositivo: C++</li> 
+  
+</ul>
 
 ### Arquitetura do sistema
 
